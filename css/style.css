@@ -540,6 +540,12 @@ small {
   transform: translateX(10px) rotate(360deg);
 }
 
+@media screen and (max-width: 600px) {
+  .social {
+    width: 80%;
+  }
+}
+
 
 .btn {
   margin: 10px;
@@ -590,11 +596,12 @@ small {
 
 
 footer {
-  margin-top: 50px;
+  /*margin-top: 50px;*/
   background-color: #002448;
   height: 50px;
   text-align: center;
   left: 0;
+  bottom: 0;
   margin-bottom: 0 !important;
 }
 
